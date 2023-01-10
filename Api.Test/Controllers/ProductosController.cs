@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 namespace Api.Test.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class ProductosController
     {
         [HttpGet ("GetProductos")]
