@@ -10,7 +10,7 @@ namespace Api.Test.Controllers
     public class ProductosController
     {
         [HttpGet ("GetProductos")]
-        public async Task<string> GetProductos([FromHeader] string ProductName)
+        public async Task<string> GetProductos()
         {
             TestProvider productos = new TestProvider();
             IEnumerable<Alphabetical_list_of_products> resultado = await productos.LeerProductos();

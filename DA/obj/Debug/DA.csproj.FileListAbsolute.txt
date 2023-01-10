@@ -10,3 +10,13 @@ C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\obj\Debug\DA.csproj.CoreCompileIn
 C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\obj\Debug\DA.csproj.CopyComplete
 C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\obj\Debug\DA.dll
 C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\obj\Debug\DA.pdb
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\System.Data.SqlClient.dll
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\System.Security.AccessControl.dll
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\System.Security.Permissions.dll
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\System.Data.SqlClient.xml
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\System.Security.AccessControl.xml
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\System.Security.Permissions.xml
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\System.Security.Principal.Windows.xml
