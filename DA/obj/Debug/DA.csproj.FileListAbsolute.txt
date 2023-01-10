@@ -1,0 +1,12 @@
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\DA.dll.config
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\DA.dll
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\DA.pdb
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\EntityFramework.dll
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\EntityFramework.xml
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\obj\Debug\DA.csproj.AssemblyReference.cache
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\obj\Debug\DA.csproj.CoreCompileInputs.cache
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\obj\Debug\DA.csproj.CopyComplete
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\obj\Debug\DA.dll
+C:\Users\tairi\OneDrive\Escritorio\Api.Test\DA\obj\Debug\DA.pdb

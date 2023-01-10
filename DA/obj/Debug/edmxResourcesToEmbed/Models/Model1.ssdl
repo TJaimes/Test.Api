@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NorthwindModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'Northwind.dbo.Alphabetical list of products' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Alphabetical list of products">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="ProductName" />
+      <PropertyRef Name="Discontinued" />
+      <PropertyRef Name="CategoryName" />
+    </Key>
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="ProductName" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="SupplierID" Type="int" />
+    <Property Name="CategoryID" Type="int" />
+    <Property Name="QuantityPerUnit" Type="nvarchar" MaxLength="20" />
+    <Property Name="UnitPrice" Type="money" />
+    <Property Name="UnitsInStock" Type="smallint" />
+    <Property Name="UnitsOnOrder" Type="smallint" />
+    <Property Name="ReorderLevel" Type="smallint" />
+    <Property Name="Discontinued" Type="bit" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="NorthwindModelStoreContainer">
+    <EntitySet Name="Alphabetical list of products" EntityType="Self.Alphabetical list of products" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Alphabetical list of products].[ProductID] AS [ProductID], 
+    [Alphabetical list of products].[ProductName] AS [ProductName], 
+    [Alphabetical list of products].[SupplierID] AS [SupplierID], 
+    [Alphabetical list of products].[CategoryID] AS [CategoryID], 
+    [Alphabetical list of products].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Alphabetical list of products].[UnitPrice] AS [UnitPrice], 
+    [Alphabetical list of products].[UnitsInStock] AS [UnitsInStock], 
+    [Alphabetical list of products].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Alphabetical list of products].[ReorderLevel] AS [ReorderLevel], 
+    [Alphabetical list of products].[Discontinued] AS [Discontinued], 
+    [Alphabetical list of products].[CategoryName] AS [CategoryName]
+    FROM [dbo].[Alphabetical list of products] AS [Alphabetical list of products]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
